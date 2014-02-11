@@ -1,14 +1,14 @@
 %define modname	File-Listing
-%define modver	6.02
+%define modver 6.04
 
 Summary:	Parse directory listings
 Name:		perl-%{modname}
 Version:	%perl_convert_version %{modver}
-Release:	9
+Release:	1
 License:	GPLv2+ or Artistic
 Group:		Development/Perl
 Url:		http://search.cpan.org/dist/%{modname}
-Source0:	http://www.cpan.org/modules/by-module/File/%{modname}-%{modver}.tar.gz
+Source0:	http://www.cpan.org/modules/by-module/File/File-Listing-%{modver}.tar.gz
 BuildArch:	noarch
 BuildRequires:	perl(HTTP::Date)
 BuildRequires:	perl-devel
@@ -42,4 +42,5 @@ assumed.
 %doc Changes META.yml README
 %{perl_vendorlib}/*
 %{_mandir}/man3/*
+
 
